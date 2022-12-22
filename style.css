@@ -1,0 +1,106 @@
+/*
+Theme Name: Custom LMS Theme
+Theme URI: None
+Author: Me
+Author URI: None
+Description: Our 2019 default theme is designed to show off the power of the block editor. Requires at least: WordPress 4.9.6
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+
+
+.newslatter input[type="submit"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    min-width: 190px;
+    color: #fff!important;
+    background-color: #b3a369;
+    border-radius: 30px !important;
+    padding: 0px 30px !important;
+    font-family: Madetommy-Regular!important;
+    font-size: 17px;
+    transition: .5s;
+    text-indent:0px !important;
+}
+
+.newslatter input[type="email"] {
+    width: 300px !important;
+}
+.newslatter input[type="submit"]:hover{
+    background-color: #fff;
+    color: #000!important;
+}
+
+.box-3 input[type="submit"] {
+    background-color: #b3a369 !important;
+    font-size: 22px !important;
+    text-indent:0px !important;
+}
+
+.box-3 textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 100px !important;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit.t-btn-blue.t-btn {
+    background-color: #0021a5;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    min-width: 190px;
+    color: #fff!important;
+    border-radius: 30px;
+    padding: 0 30px;
+    font-family: Madetommy-Regular!important;
+    font-size: 17px;
+    transition: .5s;
+    display: inline-flex;
+    width: 200px;
+    text-indent:0px !important;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit.t-btn-blue.t-btn:hover{
+    background-color: #fff;
+    color: #0021a5!important;
+}
+
+.page-template-Contact-Us-page footer {padding: 0px !important;background: none !important;}
+.page-template-Contact-Us-page footer .f-btm {margin-top: 0px;}
+p:empty {display: none;}
+
+#menu-header-menu li.current-menu-item a {
+    color: #0021a5 !important;
+   
+}
+
+#menu-header-menu li.current-menu-item ::after{
+     content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    height: 2px !important;
+    background-color: #7f91ce !important;
+    width: 0%;
+    transition: .5s;
+    width: 100% !important;
+}
+#menu-header-menu li.last a {
+    color: #fff !important;
+   
+}
+
+#menu-header-menu li.last ::after{
+     content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    height: 0px !important;
+    background-color: none !important;
+    width: 0%;
+    transition: .5s;
+    width: 100% !important;
+}
